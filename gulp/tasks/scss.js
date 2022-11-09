@@ -25,6 +25,10 @@ export default () => {
 			overrideBrowserslist: ['last 3 versions'],
 			cascade: false,
 		}))
+		.pipe(app.plugins.rename({
+			basename: 'style',
+			extname: '.css',
+		}))
 		.pipe(app.gulp.dest(app.path.build.css))
 		.pipe(cleanCss())
 		.pipe(app.plugins.rename({
