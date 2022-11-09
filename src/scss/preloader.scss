@@ -1,0 +1,24 @@
+.preloader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 1001;
+   // background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: opacity 0.5s;
+   &__img {
+   }
+   &_hide {
+      opacity: 0;
+   }
+   &_hidden {
+      display: none;
+   }
+   @media (max-width: $sm) {
+      display: none;
+   }
+}
