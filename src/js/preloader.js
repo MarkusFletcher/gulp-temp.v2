@@ -10,6 +10,6 @@ function hidePreloader() {
    }, 500)
 }
 
-window.onload = function () {
+document.addEventListener("load", function(){
    hidePreloader();
-}
+});
