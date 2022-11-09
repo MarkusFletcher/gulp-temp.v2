@@ -1,8 +1,28 @@
-// @import "reset/reboot.scss";
-// @import "reset/normalize.scss";
-// @import "reset/destyle.scss";
+// Переменные----------------------------------------------------------------------------------
+@import "variables";
 
-@import "reset/sanitize.scss";
-@import "reset/html5doctor.scss";
+// Миксины-------------------------------------------------------------------------------------
+@import "mixins";
+
+// Шрифты--------------------------------------------------------------------------------------
+@import "fonts";
+
+// Normalize
+// @import "reset/reboot";
+// @import "reset/normalize";
+// @import "reset/destyle";
+@import "reset/sanitize";
+@import "reset/html5doctor";
+
+// Preloader
+// @import "../preloader/preloader.scss";
 
 @import "style";
+
+// Блоки---------------------------------------------------------------------------------------
+//@import "../blocks";
+// @import "header.scss";
+// @import "logo.scss";
+// @import "menu.scss";
+
+// @import "footer.scss";

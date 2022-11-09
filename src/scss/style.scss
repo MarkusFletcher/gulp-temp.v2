@@ -3,3 +3,12 @@ body {
 	color: #fff;
 	display: grid;
 }
+
+.container {
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+	padding: 0 15px;
+	@media (max-width: $maxWidthContainer) {
+	   max-width: $maxWidthContainer + px;
+	}
+ }

@@ -1,0 +1,14 @@
+// Загруженные шрифты-------------------------------------------------------------------------------
+@include font("Roboto", "Roboto-Regular", "400", "normal");
+@include font("Roboto", "Roboto-Bold", "700", "bold");
+
+// Подключение шрифтов------------------------------------------------------------------------------
+// &display=swap
+// &subset=cyrilli-ext
+// @import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700,900&display=swap);
+
+// Шрифт по умолчанию
+body {
+   font-family: $fontFamily;
+   // font-size: $fontSize;
+}
